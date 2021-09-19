@@ -1,0 +1,7 @@
+#content > form {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 50em;
+    border: 1px solid #d2afe7;
+}
+  

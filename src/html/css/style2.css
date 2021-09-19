@@ -1,0 +1,138 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+
+
+.my_cart_wrapper {
+    float: right;
+    margin-top: 10px;
+    width: 20px;
+    position: relative;
+}
+
+.my_cart_wrapper:hover .my_cart_popup {
+    display: block;
+}
+
+.my_cart_button {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.my_cart_button a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 47px;
+    padding-top: 5px;
+}
+
+.top2_wrapper.v2 .my_cart_button a {
+    color: #571f70;
+}
+
+
+.my_cart_button .txt1 {
+    font-weight: 500;
+    display: block;
+}
+
+.my_cart_button .txt2 span {
+    font-weight: 500;
+}
+
+.my_cart_popup {
+    display: none;
+    width: 340px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    z-index: 61;
+    color: #571f70;
+    padding: 0 25px 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.my_cart_item {
+    border-bottom: 1px solid #ebebeb;
+    padding: 25px 15px 25px;
+    position: relative;
+}
+
+.my_cart_item figure {
+    float: left;
+    margin-right: 15px;
+}
+
+.my_cart_item .caption {
+    overflow: hidden;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 14px;
+    color: #571f70;
+}
+
+.my_cart_item .txt1 a {
+    color: #571f70;
+    text-decoration: none;
+}
+
+.my_cart_item .txt2 {
+    padding-top: 20px
+}
+
+.my_cart_shipping {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.my_cart_shipping .left {
+    float: left;
+}
+
+.my_cart_shipping .right {
+    float: right;
+    font-weight: 500;
+    color: #571f70;
+}
+
+.my_cart_subtotal {
+    font-size: 14px;
+    padding-top: 5px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.my_cart_subtotal .left {
+    float: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.my_cart_subtotal .right {
+    float: right;
+    font-weight: 500;
+    color: #571f70;
+}
+
+
+.my_cart_check_out {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    background: #571f70;
+    padding: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
